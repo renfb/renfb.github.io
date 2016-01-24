@@ -7,7 +7,7 @@
 		<meta name="author" content="renfb.com">
 		<meta name="description" content="任锋宾的个人主页--精于技术,点点滴滴,虽然我的技术和想法很不系统和成熟,但愿与你分享.">
 		<meta name="generator" content="Hugo 0.15" />
-		<title>关于我 &middot; 任锋宾的个人主页 | 精于技术，点点滴滴，虽然我的技术和想法很不系统和成熟，但愿与你分享</title>
+		<title>JQuery使用getJSON返回json数据是回调函数没反应的解决办法 &middot; 任锋宾的个人主页 | 精于技术，点点滴滴，虽然我的技术和想法很不系统和成熟，但愿与你分享</title>
 		<link rel="shortcut icon" href="http://renfb.github.ioimages/favicon.ico">
 		<link rel="stylesheet" href="http://renfb.github.iocss/style.css">
 		<link rel="stylesheet" href="http://renfb.github.iocss/highlight.css">
@@ -36,27 +36,13 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>关于我</h1>
+                    <h1>JQuery使用getJSON返回json数据是回调函数没反应的解决办法</h1>
                     <h2 class="headline">Jan 24, 2016</h2>
                 </header>
                 <section id="post-body">
-                    
+                    <p>Jquery是一个优秀的Javascrīpt框架，轻量级的js库，它兼容CSS3。jQuery使用户能更方便地处理HTML documents、events、实现动画效果，并且方便地为网站提供AJAX交互。可是在使用getJSON返回json数据时回调函数总是没有反应，通过网上查找，终于找到了解决方法：</p>
 
-<p>我的性格偏于内向，为人坦率、热情、讲求原则；处事乐观、专心、细致、头脑清醒；富有责任心、乐于助人。 我还是一个正直忠诚、勤奋求实的人，会不断追求人格的自我完善；明显的特点是乐观自信、温和开朗、稳重宽厚，因此，我人际关系和谐，适应环境能力较强。爱好电脑、科普知识，喜欢钻研，正因为这些增强了我的实干精神，习惯事情或问题及早解决。最大的满足感在于该做的事顺利完成，以便有精力去关注其他，也就是追求感觉上的自我良好或优越感。</p>
-
-<hr />
-
-<h3 id="技术背景:6083a88ee3411b0d17ce02d738f69d47">技术背景</h3>
-
-<p>web开发相关：HTML，CSS,Javascript,Asp,Asp.Net WebForm和Asp.Net MVC</p>
-
-<p>编程语言:C#,Python</p>
-
-<p>开发平台: Net(2.0,3.0,3.5,4.0)</p>
-
-<p>开发工具: Visual Studio 2012</p>
-
-<p>数据库：Access,Microsoft Sql Server,MySql</p>
+<p>在JS中，json键名可以加引号，也可以不加，但在JQuery中，JSON中的键名则应该加引号，而且要双引号。例如：({“name”:”dfd”})</p>
 
                 </section>
             </article>

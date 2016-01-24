@@ -1,21 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>../src/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <title>Posts on 任锋宾的个人主页 | 精于技术，点点滴滴，虽然我的技术和想法很不系统和成熟，但愿与你分享</title>
+    <link>http://renfb.github.io/post/</link>
+    <description>Recent content in Posts on 任锋宾的个人主页 | 精于技术，点点滴滴，虽然我的技术和想法很不系统和成熟，但愿与你分享</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jan 2016 22:07:24 +0800</lastBuildDate>
-    <atom:link href="../src/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 24 Jan 2016 21:30:38 +0800</lastBuildDate>
+    <atom:link href="http://renfb.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
-      <link>/src/post/first/</link>
-      <pubDate>Wed, 20 Jan 2016 22:07:24 +0800</pubDate>
+      <title>JQuery使用getJSON返回json数据是回调函数没反应的解决办法</title>
+      <link>http://renfb.github.io/post/jquery_json_invalid/</link>
+      <pubDate>Sun, 24 Jan 2016 21:30:38 +0800</pubDate>
       
-      <guid>/src/post/first/</guid>
-      <description>&lt;p&gt;��һ��ҳ��&lt;/p&gt;
+      <guid>http://renfb.github.io/post/jquery_json_invalid/</guid>
+      <description>&lt;p&gt;Jquery是一个优秀的Javascrīpt框架，轻量级的js库，它兼容CSS3。jQuery使用户能更方便地处理HTML documents、events、实现动画效果，并且方便地为网站提供AJAX交互。可是在使用getJSON返回json数据时回调函数总是没有反应，通过网上查找，终于找到了解决方法：&lt;/p&gt;
+
+&lt;p&gt;在JS中，json键名可以加引号，也可以不加，但在JQuery中，JSON中的键名则应该加引号，而且要双引号。例如：({“name”:”dfd”})&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何练就高效执行的本领</title>
+      <link>http://renfb.github.io/post/efficient_execution_ability/</link>
+      <pubDate>Sun, 24 Jan 2016 21:25:30 +0800</pubDate>
+      
+      <guid>http://renfb.github.io/post/efficient_execution_ability/</guid>
+      <description>&lt;p&gt;能否执行好任务是一个人能否被上司器重和提拔的最基础的条件,因此要实现快速提升就必须练就高效执行任务的本领.不管是下属,还是自己创业,都需要具有”把想法变成行动,把行动变为结果”的这样一种被称为执行力的能力.前者是把上级的指令变为现实,后者把自己的愿望变为现实.有的人想法很多,但不愿做或不会做,很难把上司的指令[或自己的想法]变成现实;有的人脚踏实地,通过一系列的努力,最终能够把一个一个的指令或想法变成现实.前者是执行力差的人,后者是执行力强的人.精益执行力就是把快速提升和致富发达这样一种愿望通过一系列的努力,最终变为现实的过程.因此,希望快速提升和致富发达的人一定要具备非常强的执行能力.&lt;/p&gt;
+
+&lt;p&gt;精益执行力是执行力概念的进一步发展,就是以较少的投入,快速执行.快速执行的作用是不言自明的,因为现在我们已处于一个”快鱼吃慢鱼”的时候.我们也每时每刻都在感受速度所给予的压力,它象一张无形的网把我们每个人都牢牢地套在网中央.世界处于高速旋转中,不管喜欢不喜欢,要想成功发展,必须加速旋转.要想在新时期拥有竞争的优势,必须遵从新的规则:尽量用最少的资源完成最多的事情.并且要加速完成.也就是人们说的达到事半功倍的效果,既精益的完成.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何选择开源软件(CMS)</title>
+      <link>http://renfb.github.io/post/How_to_choose_open_source_software/</link>
+      <pubDate>Sun, 24 Jan 2016 21:08:44 +0800</pubDate>
+      
+      <guid>http://renfb.github.io/post/How_to_choose_open_source_software/</guid>
+      <description>
+
+&lt;p&gt;对于使用者来说，并不需要关心闭源还是开源，只要用得顺手就是好系统。如果你是这一类朋友，完全可以点击右上角的关闭按钮；如果你是准备踏上开源软件(CMS)之路认真探索,那还是可以花几分钟看完，毕竟大家都处于摸索时间，抱有一颗求知的心态也未尝不可。&lt;/p&gt;
+
+&lt;p&gt;在探讨这个话题之前，我们先来了解开源的定义。通常，大家理解的开源就是软件源代码是公开，可以被查看的。不过在百度百科里，这一定义描述复杂得多，但这些来自国外的概念，不论从传播度还是接受程度，显然都不适合中国国情。为方便文章描述，我们在这里姑且就将开源简单理解为开放源代码。&lt;/p&gt;
+
+&lt;p&gt;通常像CMS之类的建站软件，大众群体对开源与闭源有两大误解：&lt;/p&gt;
+
+&lt;h5 id=&#34;一-闭源软件比开源软件安全:58c3dee65e1059af3b2572e5260263bb&#34;&gt;一、闭源软件比开源软件安全&lt;/h5&gt;
+
+&lt;p&gt;安全性是软件一个非常重要的评价因素，从理论上，开放源代码的软件，漏洞被黑客一览无余，所以闭源才安全。大家最熟悉的Windows就是闭源软件，近几年受到的攻击应该数不过来了吧。因此，一款软件是否安全绝不是因为闭源还是开源，程序严密性、更新速度才是决定因素。如果把某些知名的闭源CMS系统解密一样能找到许多漏洞，何况解密web程序对黑客来说是轻而易举的事，他们想要攻击还困难吗？&lt;/p&gt;
+
+&lt;h5 id=&#34;二-开源等于免费:58c3dee65e1059af3b2572e5260263bb&#34;&gt;二、开源等于免费&lt;/h5&gt;
+
+&lt;p&gt;恐怕这是现在对开源软件最大的误解，认为开源就是免费。这可能是国内许多建站软件以开源免费为口号，直接提供下载，再加上国人都不愿在软件上消费形成比较特别的现象。开源软件也是有知识版权的，开源并不是说完全的免费。其实这些开源软件都存在一个license（授权协议），在某些条件（少数情况）是可以免费使用的，在其他情况下则需要购买了。当然，如果是个人非要免费使用，软件商也不会来找你麻烦，但如果是企业就不能保证了。&lt;/p&gt;
+
+&lt;p&gt;通过对上面两个错误认识的重新梳理，好像闭源和开源CMS系统没有区别了。不过既然存在开源和闭源两种形式，存在即是合理。在国内，开源和闭源的最大区别就是前者源码代码是开放的，可以被修改，后者是加密的，若想改动，只能依靠制作的软件商。那么，CMS系统代码开源的价值体现在哪儿？&lt;/p&gt;
+
+&lt;p&gt;大概有以下三点：&lt;/p&gt;
+
+&lt;h6 id=&#34;一-容易个性化:58c3dee65e1059af3b2572e5260263bb&#34;&gt;一、容易个性化&lt;/h6&gt;
+
+&lt;p&gt;代码开源的CMS系统，网站管理人员能够根据需要，可以自行二次开发出各种功能和界面。闭源系统则明显会很吃力。&lt;/p&gt;
+
+&lt;h6 id=&#34;二-成本可控制:58c3dee65e1059af3b2572e5260263bb&#34;&gt;二、成本可控制&lt;/h6&gt;
+
+&lt;p&gt;CMS网站形态必定是丰富多彩的，一旦发展壮大就必定有自己的技术团队，以便随时对网站功能和样式进行修改，这对于开源CMS系统而言是非常容易的。如果使用闭源的CMS系统，所有的二次开发都需要通过软件商，要知道，任何服务只要打上“官方”必定价格不菲，可能找软件商只增加一个支付接口，十来天的开发时间费用就得上万，对比一个程序员十天的工资，哪个费用高一目了然。&lt;/p&gt;
+
+&lt;h6 id=&#34;三-节省网站建设时间:58c3dee65e1059af3b2572e5260263bb&#34;&gt;三、节省网站建设时间&lt;/h6&gt;
+
+&lt;p&gt;在网站建设初期，它们在时间上基本上一样。但当发展到有自己的技术团队时，如果需要进行网站整体改版，如果一开始使用的开源CMS系统，工程师只需在系统上进行开发，就能实现更多功能。如果是闭源系统，只能推倒重头开发。一套正规的系统可能需要花费软件商一年以上的开发时间，两者开发时间的差距可想而知。&lt;/p&gt;
+
+&lt;p&gt;在网站建设初期，它们在时间上基本上一样。但当发展到有自己的技术团队时，如果需要进行网站整体改版，如果一开始使用的开源CMS系统，工程师只需在系统上进行开发，就能实现更多功能。如果是闭源系统，只能推倒重头开发。一套正规的系统可能需要花费软件商一年以上的开发时间，两者开发时间的差距可想而知。&lt;/p&gt;
+
+&lt;p&gt;世界上的开源许可证，大概有&lt;a target=&#34;_blank&#34; href=&#34;http://www.gnu.org/licenses/license-list.html&#34;&gt;上百种&lt;/a&gt;。很少有人搞得清楚它们的区别。即使在最流行的六种—-&lt;a target=&#34;_blank&#34; href=&#34;http://www.gnu.org/licenses/gpl.html&#34;&gt;GPL&lt;/a&gt;、&lt;a target=&#34;_blank&#34; href=&#34;http://en.wikipedia.org/wiki/BSD_licenses&#34;&gt;BSD&lt;/a&gt;、&lt;a target=&#34;_blank&#34; href=&#34;http://en.wikipedia.org/wiki/MIT_License&#34;&gt;MIT&lt;/a&gt;、&lt;a target=&#34;_blank&#34; href=&#34;http://www.mozilla.org/MPL/&#34;&gt;Mozilla&lt;/a&gt;、&lt;a target=&#34;_blank&#34; href=&#34;http://www.apache.org/licenses/LICENSE-2.0&#34;&gt;Apache&lt;/a&gt;和&lt;a target=&#34;_blank&#34; href=&#34;http://www.gnu.org/copyleft/lesser.html&#34;&gt;LGPL&lt;/a&gt;—-之中做选择，也很复杂。&lt;/p&gt;
+
+&lt;p&gt;乌克兰程序员&lt;a target=&#34;_blank&#34; href=&#34;http://pbagwl.com/post/5078147450/description-of-popular-software-licenses&#34;&gt;Paul Bagwell&lt;/a&gt;，画了一张分析图，说明应该怎么选择。这是我见过的最简单的讲解，只用两分钟，你就能搞清楚这六种许可证之间的最大区别,请看下面的大图：&lt;/p&gt;
+
+&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;http://www.renfb.com/blog/wp-content/uploads/2011/05/02214312_license.jpg&#34;&gt;&lt;img width=&#34;800&#34; height=&#34;500&#34; alt=&#34;开源许可证分析图&#34; src=&#34;http://www.renfb.com/blog/wp-content/uploads/2011/05/02214312_license.jpg&#34; title=&#34;开源许可证分析图&#34; data-bd-imgshare-binded=&#34;1&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
